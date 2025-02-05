@@ -3,6 +3,7 @@ import './App.css'
 import luigi from "./assets/luigi.png"
 import ListRender from './components/ListRender';
 import ManageData from './components/ManageData';
+import ConditionalRender from './components/ConditionalRender';
 
 function App() {
 
@@ -17,8 +18,11 @@ function App() {
       <div>
         <img src={luigi} alt="Luigi" />
       </div>
+
       <ManageData />
       <ListRender />
+      <ConditionalRender />
+      
     </div>
    
   );
