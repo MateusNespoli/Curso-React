@@ -4,6 +4,7 @@ import luigi from "./assets/luigi.png"
 import ListRender from './components/ListRender';
 import ManageData from './components/ManageData';
 import ConditionalRender from './components/ConditionalRender';
+import ShowUserName from './components/ShowUserName';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <ManageData />
       <ListRender />
       <ConditionalRender />
+      <ShowUserName name = "Maria"/>
       
     </div>
    
