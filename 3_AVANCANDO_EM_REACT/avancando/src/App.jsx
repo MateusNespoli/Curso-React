@@ -5,6 +5,7 @@ import ListRender from './components/ListRender';
 import ManageData from './components/ManageData';
 import ConditionalRender from './components/ConditionalRender';
 import ShowUserName from './components/ShowUserName';
+import CarDetails from './components/CarDetails';
 
 function App() {
 
@@ -23,8 +24,11 @@ function App() {
       <ManageData />
       <ListRender />
       <ConditionalRender />
+      {/* props*/}
       <ShowUserName name = "Maria"/>
-      
+      {/* destructing */}
+      <CarDetails brand="VW" km={10000} color="amarelo"/>
+
     </div>
    
   );
